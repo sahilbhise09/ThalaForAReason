@@ -1,7 +1,8 @@
 body{
-    background-color:cornflowerblue;
+    background-color: #2c2f2b;
     font-family: 'Arial', sans-serif;
     margin: 10px;
+    scroll-behavior: smooth;
 }
 #div1{
     display: flex;
@@ -9,7 +10,7 @@ body{
     align-items: center;
 }
 #innerdiv{
-    background-color: white;
+    background-color: #fbfbfb;
     border-radius: 20px;
     width: 500px;
     height: 540px;
@@ -19,19 +20,69 @@ button{
 }
 
 h3{
-    margin-left: 18%;
+    margin-left: 29%;
+    color: #2c2f2b;
 }
 #dhoni{
     margin-top: 10px;
     margin-left: 100px;
 }
 
-#enter{
-    margin-top: -40px;
-    margin-left: 40px;
-}
-
 #output{
     margin-left: 80px;
     margin-top: 10px;
+}
+
+#btn{
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+#btn:hover{
+    background-color: #2c2f2b;
+    color: white;
+    border-radius: 5px;
+}
+
+#text{
+    margin-top: -40px;
+    margin-left: 40px;
+    color: #2c2f2b;
+    border-radius: 5px;
+    width: 20rem;
+    height: 2rem;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share{
+    margin-top: -140px;
+    margin-left: 20px;
+}
+
+.sharename{
+    color: white;
+    margin-left: -5px;
+}
+
+#twitter img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+#whatsapp img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
 }

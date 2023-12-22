@@ -4,23 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thala For A Reason</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./Assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
-    <div id="div1">
-        <div id="innerdiv">
-            <h3>Behind Everything, There is a reason!</h3>
-            <form id="myform">
-                <label for="enter" id="enter">Enter text:</label>
-                <input type="text" id="text" name="text"/>
+    <div class="parent">
 
-                <button type="button" onclick="getValue()">Submit</button>
-                <h3 id="output"></h3>
-                <div id="dhoni"></div>
-                <div id="audio"></div>
-            </form>
+        <div id="div1">
+            <div id="innerdiv">
+                <h3>THALA FOR A REASON</h3>
+                <form id="myform">
+                    <input type="text" id="text" autocomplete="off" name="text"placeholder="Enter a Text"/>
+    
+                    <button id="btn" type="button" onclick="getValue()">Submit</button>
+                    <h3 id="output"></h3>
+                    <div id="dhoni"></div>
+                    <div id="audio"></div>
+                </form>
+            </div>
         </div>
+
+        <div class="share">
+            <h3 class="sharename">Share</h3>
+            <div class="logos">
+              <a href="https://twitter.com/intent/tweet?text=${`Check This!\n ${window.location}`}" target="_blank" id ="twitter"
+                ><img src="./Assets/icons/x-twitter.svg" alt=""
+              /></a>
+              <a href="https://api.whatsapp.com/send?text=${`Check This Out !🔥💥💥 \n ${window.location}
+              `}" target="_blank" id ="whatsapp"
+                ><img src="./Assets/icons/whatsapp.svg" alt=""
+              /></a>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>
