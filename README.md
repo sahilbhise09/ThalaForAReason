@@ -24,3 +24,9 @@ Welcome to the "Thala For a Reason" web page, where users can enter either a str
 
 Feel free to clone and customize this web page to add your personal touch.
 
+# License
+
+This project is licensed under the MIT License.
+
+Feel free to copy and paste this Markdown code into your `README.md` file in your project.
+
